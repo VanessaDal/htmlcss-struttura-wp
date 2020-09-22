@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  /* debug rules */
+  height: 500px;
+  background-color: lightpink;
+}
+
+header{
+  /* debug rules */
+  height: 200px;
+  background-color: black;
+}
+
+aside{
+  /* debug rules */
+  height: 300px;
+  background-color: green;
+}
+
+section{
+  /* debug rules */
+  height: 300px;
+  background-color: orange;
+}
