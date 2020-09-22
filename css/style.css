@@ -10,7 +10,7 @@
   clear: both;
 }
 
-main{
+.container{
   width: 90%;
   margin: auto;
 }
@@ -40,9 +40,13 @@ section{
 .subcontents{
   height: 25%;
   background-color: red;
+  margin-top: 10px;
+
 }
 
 footer{
-  height: 200px;
+  height: 100px;
   background-color: lightblue;
+  margin-top: 10px;
+
 }
