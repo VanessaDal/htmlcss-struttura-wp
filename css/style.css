@@ -37,16 +37,20 @@ section{
   margin: 0 2%;
 }
 
-.subcontents{
-  height: 25%;
-  background-color: red;
-  margin-top: 10px;
+#second-aside{
+  background-color: white;
+  float: left;
+  width: 20%;
+}
 
+.subcontents{
+  height: 180px;
+  background-color: pink;
+  margin-bottom: 10px;
 }
 
 footer{
   height: 100px;
   background-color: lightblue;
   margin-top: 10px;
-
 }
