@@ -4,26 +4,45 @@
   box-sizing: border-box;
 }
 
+.float::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
 main{
-  /* debug rules */
-  height: 500px;
-  background-color: lightpink;
+  width: 90%;
+  margin: auto;
 }
 
 header{
-  /* debug rules */
   height: 200px;
-  background-color: black;
+  background-color: yellow;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 aside{
-  /* debug rules */
   height: 300px;
-  background-color: green;
+  background-color: lightpink;
+  float: left;
+  width: 20%;
 }
 
 section{
-  /* debug rules */
   height: 300px;
-  background-color: orange;
+  background-color: purple;
+  float: left;
+  width: 56%;
+  margin: 0 2%;
+}
+
+.subcontents{
+  height: 25%;
+  background-color: red;
+}
+
+footer{
+  height: 200px;
+  background-color: lightblue;
 }
